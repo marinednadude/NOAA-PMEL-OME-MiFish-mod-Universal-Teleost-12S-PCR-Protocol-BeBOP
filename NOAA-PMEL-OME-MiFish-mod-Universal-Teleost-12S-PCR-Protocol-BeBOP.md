@@ -35,7 +35,7 @@ See [MIOP_definition.md](https://github.com/BeBOP-OBON/0_protocol_collection_tem
 | language  | en |
 | issued  | 2024-02-02	 |
 | audience  | scientists |
-| publisher  | NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Program, University of Washington Cooperative Institute for Climate, Ocean, & Ecosystem Studies |
+| publisher  | NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Program; University of Washington Cooperative Institute for Climate, Ocean, & Ecosystem Studies |
 | hasVersion  | 1 |
 | license  | CC0 1.0 Universal |
 | maturity level  | mature |
@@ -48,7 +48,7 @@ See [MIOP_definition.md](https://github.com/BeBOP-OBON/0_protocol_collection_tem
 | PREPARED BY | AFFILIATION | ORCID | DATE |
 | ------------- | ------------- | ------------- | ------------- |
 | Shannon Brown | Ocean Molecular Ecology, NOAA PMEL & UW CICOES  | 0000-0001-9808-2638 |2024-02-02|
-| Han Weinrich  | Ocean Molecular Ecology, NOAA PMEL & UW CICOES  | Pending |2024-02-02|
+| Han Weinrich  | Ocean Molecular Ecology, NOAA PMEL & UW CICOES  | 0009-0007-6063-0986 |2024-02-02|
 |Sean McAllister	|Ocean Molecular Ecology, NOAA PMEL & UW CICOES	|0000-0001-6654-3495	|2024-02-02|
 |Matt Galaska	|Ocean Molecular Ecology, NOAA PMEL|	0000-0002-4257-0170	|2024-02-02|
 |Zachary Gold	|Ocean Molecular Ecology, NOAA PMEL	|0000-0003-0490-7630	|2024-02-02|
@@ -73,7 +73,7 @@ This protocol is for amplifying the 12S mitochondrial ribosomal RNA gene in vert
 
 This primer set targets vertebrates organisms (e.g., fishes, marine mammals, birds). Important note, this primer also amplifies non-target organisms including microbes and single-celled phytoplankton (e.g., proteobacteria and diatoms). 
 
-The protocol presented here is intended as the first PCR of a two-step PCR next generation sequencing library preparation using Illumina Nextera Unique Dual Indices. Our written protocol does not include the second PCR step in which unique library-specific barcodes are attached to each round 1 PCR product.  [NOAA-PMEL-OME-NGS-Library-Preparation-Protocol pending]
+The protocol presented here is intended as the first PCR of a two-step PCR next generation sequencing library preparation using Illumina Nextera Unique Dual Indices. Our written protocol does not include the second PCR step in which unique library-specific barcodes are attached to each round 1 PCR product.  
 
 ## Method description and rationale
 
@@ -99,7 +99,7 @@ Molecular biology training (including, at a minimum, sterile technique, pipettin
 
 ## Time required to execute the procedure
 
-PCR preparation and running the PCR protocol for a single 96-well plate takes 2.8 hours (170 minutes). Additional plates can be run simultaneously without greatly increasing the time required. 
+PCR preparation and running the PCR protocol for a single 96-well plate takes 2.8 hours (170 minutes), of which 80 mins is the thermocycler run time. Additional plates can be run simultaneously without greatly increasing the time required. 
 
 -----
 # EQUIPMENT
@@ -111,7 +111,7 @@ PCR preparation and running the PCR protocol for a single 96-well plate takes 2.
 |Pipetter: 1-10 μl|Pipetman P10L|Gilson|1|Can be substituted with any accurate pipettor.|
 |Pipetter: 20 - 200 uL	|Pipetman P200L|Gilson|	1|Can be substituted with any accurate pipettor.|
 |Pipetter: 100-1000 uL	|Pipetman P1000	|Gilson	|1|Can be substituted with any accurate pipettor.|
-|BioSafety II cabinet|Biological safety cabinet (INT-1100A2)|Kewaunee|1|Can be substituted with generic.|
+|BioSafety II cabinet|Biological safety cabinet (INT-1100A2)|Kewaunee|1|Can be substituted with generic; internal UV light required.|
 |Thermocycler|Veriti 96-well thermal cycler |Applied Biosystems| 1|	Can be substituted with generic.|
 | Mini-centrifuge | Personal mini centrifuge  | BioExcell | 1 | Can be substituted with generic, but needs to fit 1.5-2.0 mL tubes. |
 | Vortex | Analog vortex mixer | Fisher Scientific | 1 | Can be substituted with generic. |
@@ -121,6 +121,12 @@ PCR preparation and running the PCR protocol for a single 96-well plate takes 2.
 | 1.5 mL tube cooler rack | Benchtop cooler | Thermo Scientific  | 1 | Can be subsituted with generic. Store in the fridge to avoid refreezing reagents. |
 | 2 mL tube rack | Microcentrifuge tube rack | VWR | 1 | Can be substituted with generic. |
 | 0.2 mL PCR plate rack | PCR tube rack for 0.2 mL micro-tubes | Fisher Scientific | 1 | Can be substituted with generic. |
+|Wash bottle|Safety Wash Bottle for Ethanol 500mL|VWR|1|Can be substituted with generic (not labeled specifically for EtOH). Must be sterilized before use|
+|Wash bottle|Safety Wash Bottle for Hypochlorite Bleach 500mL|VWR|1|Can be substituted with generic (not labeled specifically for bleach). Must be sterilized before use|
+|Freezer|Freezer capable of reaching and maintaining -20°C|Generic|1|Used to store DNA and PCR reagents. **NOTE: a separate freezer should be used to store PCR products if possible.**|
+|Fridge| Refrigerator capable of reaching and maintaining 4°C|Generic|1|Used to store some PCR reagents **NOTE: a separate fridge should be used to hold PCR products if possible.**|
+|Trash bag holder|Bel-Art scienceware bench-top biohazard holders|Fisher Scientific|1|Can be substituted with generic.|
+|Cryoboxes|TruCool hinged lid cryoboxes|VWR|2|Can be substituted with generic, but recommend set color for eDNA and reagents. Must be sterilized before use. Can be used to store DNA tubes (pre-PCR) and reagent aliquots. |
 | **Consumable equipment** |
 | 1000 μL pipette tips | TipOne RPT filter tips 1000 μL XL graduated | USA Scientific | 4 | Can be subsituted with generic. Must be sterile and filtered. |
 | 200 μL pipette tips  | TipOne RPT filter tips 200 μL graduated| USA Scientific |4 | Can be subsituted with generic. Must be sterile and filtered. |
@@ -130,16 +136,22 @@ PCR preparation and running the PCR protocol for a single 96-well plate takes 2.
 | 2 mL tubes | Snap cap DNA LoBind 2.0 mL tubes, PCR-clean| Eppendorf |5 | Can be substituted with generic. Must be sterile. |
 | 1.5 mL tubes | Snap cap DNA LoBind 1.5 mL tubes, PCR-clean| Eppendorf |2 | Can be substituted with generic. Must be sterile. |
 | Kimwipes | Delicate task wipes | Kimtech | 5 | Can be substituted with generic. Must be lint-free.|
+| Nitrile gloves | Powder Free Nitrile Gloves | Fisher Scientific | 4 | Can be subsituted with generic nitrile gloves. Does not come sterile, must be sterilized before use (10% bleach followed by 70% EtOH) |
+|Trash bags for BSC|Teivio 1.2 Gallon 360 Counts Strong Trash Bags|Teivio|1|Can be substituted with generic.|
+| Lab notebook | Durable, hardcover lab notebook | Generic | 1 | Dedicated to the lab space|
+| Writing utensils | Sharpies and pens | Generic | 2-4 | Dedicated to the lab extraction space. Not made of wood - must be able to be wiped down with bleach/EtOH.  |
 |**Optional Equipment**|||			
 |Repeater Pipetter: 10-300  μL|E1-ClipTip electronic single channel pipette, 10-300 μL|ThermoFisher|	1|Can be substituted with generic. Not required but reduces protocol time.|
 | 300 μl repeater pipette tips | ClipTip 300 filtered sterile tips| Thermo Scientific| 2| Can be substituted with generic. Must fit repeater pipette. Must be sterile and filtered. |
 |8-channel multichannel pipetter: 1-10 μL| Pipetman Multichannel P8X10|	Gilson|	1|Can be substituted with generic. Not required but reduces protocol time.|
+| UV crosslinker | UV crosslinker AH (115V), 234100 | Boekel Scientific  | 1 | Recommended not required; can be substituted. |
 | **Chemicals** |
 | PCR master mix 2x|Phusion High-Fidelity PCR Master Mix with HF Buffer | New England BioLabs | 1300 μl per plate | Store at -20°C. |
 | Forward primer | Custom oligo | IDT |130 μl per plate|Store at -20°C.|
 | Reverse primer| Custom oligo | IDT | 130 μl per plate |Store at -20°C.
 | Nuclease free water | UltraPure DNase/RNase-free distilled water | ThermoFisher | 689 μl per plate| |
 | rAlbumin |Molecular Biology Grade Recombinant Albumin | New England BioLabs | 65 μl per plate| Store at -20°C|
+|DMSO|Phusion HF PCR Master Mix comes with DMSO|New England Biolabs| 78 μl per plate| Store at 4°C, must be warmed to room temperature to dissolve|
 | Positive control| gBlocks HiFi Gene Fragments | IDT | 2 μl per plate| Store at -20°C |
 | 70% EtOH | Molecular grade ethanol| Generic | 20 mL | |
 | 10% bleach| Hypochlorite bleach |Clorox| 10 mL | Remake every ~5 days as bleach decomposes quickly at 10% concentration. |
@@ -153,8 +165,9 @@ PCR preparation and running the PCR protocol for a single 96-well plate takes 2.
 **Before PCR Setup:**
 
 1. Sterilize workspaces and durable equipment, including pipettes within the BSC with 10% bleach. Then wipe down all surfaces and equipment with 70% EtOH.
-4. If you have a UV crosslinker available, UV pipettes and tube racks regularly for 2 minutes. [NOAA-PMEL-OME-Sterilization-Protocol pending] 
+4. If you have a UV crosslinker available, UV pipettes and tube racks regularly for 2 minutes. 
 5. Run the UV light in the BSC for 30 minutes before starting work.
+6. Label all PCR plates both on the side of the plate and on the top of the foil (in the plate margins). Recommended labeling scheme includes plate name, primer, date of PCR and personnel initials.
 
 ### PCR
 
