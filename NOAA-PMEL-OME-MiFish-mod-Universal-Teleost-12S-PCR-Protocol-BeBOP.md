@@ -1,7 +1,3 @@
-## This is a draft document and has not been finalized or version controlled.
-
-----------
-
 # NOAA PMEL OME MiFish mod Universal Teleost 12S PCR Protocol
 
 
