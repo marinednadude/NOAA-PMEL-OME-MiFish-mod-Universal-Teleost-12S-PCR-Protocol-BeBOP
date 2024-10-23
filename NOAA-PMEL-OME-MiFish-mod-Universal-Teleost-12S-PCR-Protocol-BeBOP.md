@@ -293,4 +293,4 @@ Nuclease-free water is used as a no template control (NTC) when setting up each 
 http://doi.org/10.1098/rsos.150088
 2. Sales NG, Wangensteen OS, Carvalho DC, Mariani S. Influence of preservation methods, sample medium and sampling time on eDNA recovery in a neotropical river. Environmental DNA. 2020; 00: 119–130. https://doi.org/10.1002/edn3.14
 ## APPENDIX A: DATASHEETS
-[Protocol Sample Sheet](https://docs.google.com/spreadsheets/d/1rbrpmue3Q-4zzLKVnIaca0bfmn5JGWZngD0rcuS9pik/edit?usp=sharing)
+[Protocol Sample Sheet](https://docs.google.com/spreadsheets/d/1CeQgpwbMzVP9k2CyVIONiJwHmqqe12lD/edit?usp=drive_web&ouid=110378748446083367071&rtpof=true)
