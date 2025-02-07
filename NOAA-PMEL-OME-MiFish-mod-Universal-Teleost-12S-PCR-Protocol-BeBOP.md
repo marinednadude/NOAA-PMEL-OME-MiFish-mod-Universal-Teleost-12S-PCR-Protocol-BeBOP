@@ -78,6 +78,27 @@ pcr_method_additional: not provided
 
 - All authors known to have contributed to the preparation of this protocol should be listed, including those who filled in the template.
 - Visit <https://orcid.org/> to register for an ORCID.
+- 
+## Related Protocols
+
+- This section contains protocols that should be known to users of this protocol.
+- Internal Protocols: Derivative or altered protocols, or other protocols in this workflow.
+- External Protocols: Protcols from manufacturers or other groups. 
+- Include the link to each protocol.
+- Include the version number (internal) or access date (external) of the protocol when it was accessed.
+
+#### Internal Protocols
+
+| PROTOCOL NAME | LINK         | VERSION      | RELEASE DATE |
+| ------------- | ------------ | ------------ | ------------ |
+| OME Gel electrophoresis protocol (in progress)  | TBD | 0.0| TBD |
+
+#### External Protocols
+
+| PROTOCOL NAME                                                                                                                                                                                                                                                                                                                | LINK                                                                                                                             | VERSION | RELEASE DATE |
+| --------- | --------------------- | ------- | ------------ |
+| [NOAA Northwest Fisheries Science Center](https://www.fisheries.noaa.gov/about/conservation-biology-division-northwest-fisheries-science-center) & [MMARINeDNA: Marine Mammal Remote detection via INnovative environmental DNA sampling](https://www.ednacollab.org/mmarinedna-about) MiFish 12S Universal Teleost Protocol | [Pending Shaffer et al. 2024 publication](https://drive.google.com/file/d/15s1KfLccbXUQExfHI0RWwWSu1QNImBCt/view?usp=drive_link) |         | Pending      |
+
 
 ### Protocol Revision Record
 
