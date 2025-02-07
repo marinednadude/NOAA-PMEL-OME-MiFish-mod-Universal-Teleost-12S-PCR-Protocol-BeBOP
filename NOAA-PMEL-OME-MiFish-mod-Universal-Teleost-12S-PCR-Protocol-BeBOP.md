@@ -1,171 +1,237 @@
+---
+#MIOP terms
+methodology_category: Omics analysis
+project: NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Program Protocols
+purpose: PCR [OBI:0000415]
+analyses: PCR [OBI:0000415]
+geographic_location: North East Pacific Ocean [GAZ:00013765], Bering Sea [GAZ:00008990], Arctic Ocean [GAZ:00000323]
+broad_scale_environmental_context: marine biome [ENVO:00000447], marine photic zone [ENVO:00000209]
+local_environmental_context: oceanic epipelagic zone biome [ENVO:01000035], marine biome [ENVO:00000447], marine benthic biome [ENVO:01000024]
+environmental_medium: sea water [ENVO:00002149]
+target: 12S mitochondrial ribosomal RNA  [NCIT:C128263], MT-RNR1 Gene [NCIT:C128260]
+creator: Shannon Brown, Han Weinrich, Zachary Gold
+materials_required: vortexer [OBI:0400118], PCR instrument [OBI:0000989]
+skills_required: sterile technique, pipetting skills, standard molecular technique
+time_required: 170
+personnel_required: 1
+language: en
+issued: 2025-01-05
+audience: scientists
+publisher: NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Program; University of Washington Cooperative Institute for Climate, Ocean, & Ecosystem Studies
+
+# FAIRe terms
+pcr_0_1: 1
+thermocycler: Applied Biosystems Veriti 96-well thermal cycler
+amplificationReactionVolume: 25
+assay_name: mifish_mod_universal_teleost_12s
+assay_validation: not provided
+targetTaxonomicAssay: 12S rRNA gene sequencing targeting the V5-V6 region using primers MiFish-U-F_mod and MiFish-U-R
+targetTaxonomicScope: fishes
+target_gene: 12S rRNA
+target_subfragment: V5-V6
+ampliconSize: 163-185
+pcr_primer_forward: GCCGGTAAAACTCGTGCCAGC
+pcr_primer_reverse: CATAGTGGGGTATCTAATCCCAGTTTG
+pcr_primer_name_forward: MiFish_U_F_mod
+pcr_primer_name_reverse: MiFish_U_R
+pcr_primer_reference_forward: https://doi.org/10.1002/edn3.14
+pcr_primer_reference_reverse: http://doi.org/10.1098/rsos.150088
+pcr_primer_vol_forward: 1.25
+pcr_primer_vol_reverse: 1.25
+pcr_primer_conc_forward: 10
+pcr_primer_conc_reverse: 10
+probeReporter: not applicable
+probeQuencher: not applicable
+probe_seq: not applicable
+probe_ref: not applicable
+probe_conc: not applicable
+commercial_mm: Phusion High-Fidelity PCR Master Mix with HF Buffer
+custom_mm: PCR reactions were run in 25 uL reaction volumes, with 2 uL of DNA, 12.5 uL of AmpliTaq Gold, 6.625 uL of water, 0.625 uL rAlbumin, 0.75 uL DMSO and 1.25 uL of each primer (10 uM).
+pcr_dna_vol: 2
+pcr_rep: 1
+nucl_acid_amp: Not Provided
+pcr_cond: initial denaturation:98_0.5;normal_cycling;denaturation:98_0.17;annealing:60_0.5;elongation:72_0.75;final elongation:72_10;35
+annealingTemp: 60
+pcr_cycles: 35
+pcr_analysis_software: not provided
+pcr_method_additional: not provided
+---
+
 # NOAA PMEL OME MiFish mod Universal Teleost 12S PCR Protocol
 
+## PROTOCOL INFORMATION
 
-### Quick Links:
+### Minimum Information about an Omics Protocol (MIOP)
 
-- [MIOP](#Minimum-Information-about-an-Omics-Protocol-(MIOP))
-- [Background](#BACKGROUND)
-- [Equipment](#EQUIPMENT)
-- [Standard Operating Procedure](#STANDARD-OPERATING-PROCEDURE)
+- MIOP terms are listed in the YAML frontmatter of this page.
+- See <https://github.com/BeBOP-OBON/miop/blob/main/model/schema/terms.yaml> for list and definitions.
 
-## Minimum Information about an Omics Protocol (MIOP)
-
-See [MIOP_definition.md](https://github.com/BeBOP-OBON/0_protocol_collection_template/blob/main/MIOP_definition.md) for list and definitions.
-
-| MIOP Term  | Value |
-| ------------- | ------------- | 
-| methodology category  | omics analysis |
-| project  | NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Program Protocols |
-| purpose  | PCR [OBI:0000415] |
-| analyses  | PCR [OBI:0000415] |
-| geographic location  | North East Pacific Ocean [GAZ:00013765], Bering Sea [GAZ:00008990], Arctic Ocean [GAZ:00000323] |
-| broad-scale environmental context  | oceanic epipelagic zone biome [ENVO:01000035], marine biome [ENVO:00000447], marine benthic biome [ENVO:01000024]|
-| local environmental context  | oceanic epipelagic zone biome [ENVO:01000035], marine benthic biome [ENVO:01000024] |
-| environmental medium  | sea water [ENVO:00002149] , DNA extraction [OBI:0000257] |
-| target  | 12S mitochondrial ribosomal RNA  [NCIT:C128263] |
-| creator  | [Shannon Brown](https://github.com/Brown-NOAA), [Han Weinrich](https://github.com/HanWeinrich), and [Zachary Gold](https://github.com/marinednadude) |
-| materials required  | agarose gel electrophoresis system [OBI:0001134] , PCR instrument [OBI:0000989] |
-| skills required  | sterile technique, pipetting skills, and standard molecular technique |
-| time required  | 170 |
-| personnel required  | 1 |
-| language  | en |
-| issued  | 2024-02-02	 |
-| audience  | scientists |
-| publisher  | NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Program; University of Washington Cooperative Institute for Climate, Ocean, & Ecosystem Studies |
-| hasVersion  | 1 |
-| license  | CC0 1.0 Universal |
-| maturity level  | mature |
-
---------
-
-
-## AUTHORS
+### Authors
 
 | PREPARED BY | AFFILIATION | ORCID | DATE |
 | ------------- | ------------- | ------------- | ------------- |
-| Shannon Brown | Ocean Molecular Ecology, NOAA PMEL & UW CICOES  | 0000-0001-9808-2638 |2024-02-02|
-| Han Weinrich  | Ocean Molecular Ecology, NOAA PMEL & UW CICOES  | 0009-0007-6063-0986 |2024-02-02|
-|Sean McAllister	|Ocean Molecular Ecology, NOAA PMEL & UW CICOES	|0000-0001-6654-3495	|2024-02-02|
-|Matt Galaska	|Ocean Molecular Ecology, NOAA PMEL|	0000-0002-4257-0170	|2024-02-02|
-|Zachary Gold	|Ocean Molecular Ecology, NOAA PMEL	|0000-0003-0490-7630	|2024-02-02|
+| Shannon Brown | Ocean Molecular Ecology, NOAA PMEL & UW CICOES  | <https://orcid.org/0000-0001-9808-2638>|2024-02-02|
+| Han Weinrich  | Ocean Molecular Ecology, NOAA PMEL & UW CICOES  | <http://orcid.org/0009-0007-6063-0986>|2024-02-02|
+|Sean McAllister	|Ocean Molecular Ecology, NOAA PMEL & UW CICOES	|<http://orcid.org/0000-0001-6654-3495>|2024-02-02|
+|Matt Galaska	|Ocean Molecular Ecology, NOAA PMEL|<http://orcid.org/0000-0002-4257-0170>	|2024-02-02|
+|Zachary Gold	|Ocean Molecular Ecology, NOAA PMEL	|<http://orcid.org/0000-0003-0490-7630>	|2024-02-02|
 
+- All authors known to have contributed to the preparation of this protocol should be listed, including those who filled in the template.
+- Visit <https://orcid.org/> to register for an ORCID.
 
--------------
+### Protocol Revision Record
 
-## RELATED PROTOCOLS
+| VERSION | RELEASE DATE | DESCRIPTION OF REVISIONS |
+| ------------- | ------------- | ------------- |
+| 1.0.0 | 2024-02-01 | Initial release |
+| 1.0.1 | 2024-05-29 | Formatting edits |
+| 1.0.2 | 2024-10-23 | File edits |
+| 1.1.0 | 2025-02-05 | Addition of FAIR eDNA terms in YAML frontmatter and formatting edits |
 
-| PROTOCOL NAME                                                                                                                                                                                                                                                                                                                | LINK                                                                                                                             | VERSION | RELEASE DATE |
-| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- | ------- | ------------ |
-| [NOAA Northwest Fisheries Science Center](https://www.fisheries.noaa.gov/about/conservation-biology-division-northwest-fisheries-science-center) & [MMARINeDNA: Marine Mammal Remote detection via INnovative environmental DNA sampling](https://www.ednacollab.org/mmarinedna-about) MiFish 12S Universal Teleost Protocol | [Pending Shaffer et al. 2024 publication](https://drive.google.com/file/d/15s1KfLccbXUQExfHI0RWwWSu1QNImBCt/view?usp=drive_link) |         | Pending      |
+- Version numbers start at 1.0.0 when the protocol is first completed and will increase when changes that impact the outcome of the procedure are made (patches: 1.0.1; minor changes: 1.1.0; major changes: 2.0.0).
+- Release date is the date when a given protocol version was finalised.
+- Description of revisions includes a brief description of what was changed relative to the previous version.
 
+### Acronyms and Abbreviations
 
+| ACRONYM / ABBREVIATION | DEFINITION |
+| ------------- | ------------- |
+|12S rRNA  |12S mitochondrial ribosomal RNA |
+|BSC	|Biosafety cabinet|
+|CICOES| Cooperative Institute for Climate, Ocean, & Ecosystem Studies
+|eDNA	|environmental DNA|
+|EtOH| Ethanol|
+|IDT| Integrated DNA Technologies
+|MBARI| Monterey Bay Aquarium Research Institute|
+|MBON	|Marine Biodiversity Observation Network|
+|NOAA|National Oceanic and Atmospheric Administration|
+|NTC	|No template control
+|OME	|Ocean Molecular Ecology
+|PCR| Polymerase chain reaction |
+|PMEL	|Pacific Marine Environmental Laboratory|
+|PPE    | Personal protective equipment |
+|UW| University of Washington
+|WC-OBON|West Coast Ocean Biomolecular Observing Network|
 
----
-# BACKGROUND
+### Glossary
 
-## Summary
+| SPECIALISED TERM | DEFINITION |
+| ------------- | ------------- |
+| Extraction blank  | Extraction negative control. Typically nuclease-free water or empty filter run through the DNA extraction process to control for contamination in the DNA extraction step. |
+| Field blank  | Sampling negative control. Typically distilled or reverse osmosis water run through a filter like an seawater eDNA sample to control for contamination in the field sampling step. |
+| No template control | PCR negative control. Typically nuclease-free water loaded in place of a sample on a PCR to control for contamination in the PCR step. |
+| Positive control  | PCR positive control. Typically a synthetic DNA strand, non-indigenous DNA extract, or intentionally designed mock community loaded in place of a sample on a PCR to control for contamination and index hopping in the PCR step. |
 
-This protocol is for amplifying the 12S mitochondrial ribosomal RNA gene in vertebrates. The primers (forward: MiFish-U-F_mod, reverse: MiFish-U-R) were first presented in [Sales et al. 2019](https://doi.org/10.1002/edn3.14) (forward) and [Miya et al. 2015](https://doi.org/10.1098/rsos.150088) (reverse). The MiFish-U-F_mod primer used in this protocol has 1 basepair substition from the MiFish-U-F primer used in Miya et al. 2015, but is otherwise identical. The target amplicon size is 163 - 185 base pairs.
+## BACKGROUND
 
-This primer set targets vertebrates organisms (e.g., fishes, marine mammals, birds). Important note, this primer also amplifies non-target organisms including microbes and single-celled phytoplankton (e.g., proteobacteria and diatoms). 
+### Summary
 
-The protocol presented here is intended as the first PCR of a two-step PCR next generation sequencing library preparation using Illumina Nextera Unique Dual Indices. Our written protocol does not include the second PCR step in which unique library-specific barcodes are attached to each round 1 PCR product.  
+This protocol describes steps for performing PCR for the 12S mitochondrial ribosomal RNA gene in vertebrates using eDNA. The primers (forward: MiFish-U-F_mod, reverse: MiFish-U-R) were first presented in Sales et al. 2019 (forward) and Miya et al. 2015 (reverse). The MiFish-U-F_mod primer used in this protocol has 1 basepair substition from the MiFish-U-F primer used in Miya et al. 2015, but is otherwise identical. The target amplicon size is 163 - 185 base pairs.
 
-## Method description and rationale
+This primer set targets vertebrates organisms (e.g., fishes, marine mammals, birds). Important note, this primer also amplifies non-target organisms including microbes and single-celled phytoplankton (e.g., proteobacteria and diatoms).
+
+The protocol presented here is intended as the first PCR of a two-step PCR next generation sequencing library preparation using Illumina Nextera Unique Dual Indices. Our written protocol does not include the second PCR step in which unique library-specific barcodes are attached to each round 1 PCR product.
+
+### Method description and rationale
 
 This protocol was chosen because it has been tested and deployed at scale by the MMARINeDNA: Marine Mammal Remote detection via INnovative environmental DNA sampling project including both NOAA Northwest Fisheries Science Center (NWFSC) and Southwest Fisheries Science Center (SWFSC) and University of Washington eDNA Collaborative and University of California San Diego Scripps Institution of Oceanography, all leaders in the field of eDNA research and important partners in West Coast Ocean Biomolecular Observing Network (WC-OBON). Our protocol uses the same primers, polymerase, and thermocycling conditions as MMARINeDNA, but is 25 µL in total reaction volume. We intentionally chose this protocol to promote standardization of ocean biomolecular observations and easily facilitate integration of PMEL OME eDNA data with NOAA NMFS led eDNA time series.
 
 This amplification protocol is accessible to most molecular biology labs.
 
-## Spatial coverage and environment(s) of relevance
+### Spatial coverage and environment(s) of relevance
 
-This protocol has been used to amplify extracted DNA from thousands of filtered sea water samples taken from coastal stations off the western coast of North America in the Northeastern Pacific Ocean, Bering Sea and Arctic Ocean (primarily off California, Oregon, Washington, and Alaska). Samples collected range in depth from surface ocean (epipelagic biome) to just off bottom (benthic biome) at varying distances from shore (coastal to off-shelf). 
+This protocol can be used to amplify the 12S marker gene region of any eDNA sample.
 
-## Personnel Required
+### Personnel Required
 
 One person with molecular biology experience.
 
-## Safety
+### Safety
 
 This protocol does not involve any hazardous chemicals, although standard precautions including wearing PPE should be taken to avoid skin and eye exposure to chemical reagents.
 
-## Training requirements
+### Training requirements
 
 Molecular biology training (including, at a minimum, sterile technique, pipetting small volumes, and programming and running PCR thermocyclers) is required to conduct this protocol.
 
-## Time required to execute the procedure
+### Time needed to execute the procedure
 
-PCR preparation and running the PCR protocol for a single 96-well plate takes 2.8 hours (170 minutes), of which 80 mins is the thermocycler run time. Additional plates can be run simultaneously without greatly increasing the time required. 
+PCR preparation and running the PCR protocol for a single 96-well plate takes 2.8 hours (170 minutes), of which 80 mins is the thermocycler run time. Additional plates can be run simultaneously without greatly increasing the time required.
 
------
-# EQUIPMENT
+## EQUIPMENT
 
+For a 96-well Plate:
 
 | DESCRIPTION | PRODUCT NAME AND MODEL | MANUFACTURER | QUANTITY | REMARK |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | **Durable equipment**|
-|Pipetter: 1-10 μl|Pipetman P10L|Gilson|1|Can be substituted with any accurate pipettor.|
-|Pipetter: 20 - 200 uL	|Pipetman P200L|Gilson|	1|Can be substituted with any accurate pipettor.|
-|Pipetter: 100-1000 uL	|Pipetman P1000	|Gilson	|1|Can be substituted with any accurate pipettor.|
-|BioSafety II cabinet|Biological safety cabinet (INT-1100A2)|Kewaunee|1|Can be substituted with generic; internal UV light required.|
-|Thermocycler|Veriti 96-well thermal cycler |Applied Biosystems| 1|	Can be substituted with generic.|
-| Mini-centrifuge | Personal mini centrifuge  | BioExcell | 1 | Can be substituted with generic, but needs to fit 1.5-2.0 mL tubes. |
-| Vortex | Analog vortex mixer | Fisher Scientific | 1 | Can be substituted with generic. |
-| Plate spinner | [Salad spinner]( https://doi.org/10.3390/mps3020041) | Cuisinart | 1| Can be substituted with generic or plate centrifuge. |
+|Pipetter: 1-10 μl|Pipetman P10L|Gilson|1|Can be substituted with any accurate pipettor|
+|Pipetter: 20 - 200 uL	|Pipetman P200L|Gilson|	1|Can be substituted with any accurate pipettor|
+|Pipetter: 100-1000 uL	|Pipetman P1000	|Gilson	|1|Can be substituted with any accurate pipettor|
+|BioSafety II cabinet|Biological safety cabinet (INT-1100A2)|Kewaunee|1|Can be substituted with generic - internal UV light required|
+|Thermocycler|Veriti 96-well thermal cycler |Applied Biosystems| 1|	Can be substituted with generic|
+| Mini-centrifuge | Personal mini centrifuge  | BioExcell | 1 | Can be substituted with generic, but needs to fit 1.5-2.0 mL tubes |
+| Vortex | Analog vortex mixer | Fisher Scientific | 1 | Can be substituted with generic|
+| Plate spinner | [Salad spinner]( https://doi.org/10.3390/mps3020041) | Cuisinart | 1| Can be substituted with generic or plate centrifuge |
 | Foil roller | Rubber roller | Generic | 1 ||
-| PCR cooler rack | PCR cooler 0.2-0.5 mL | Eppendorf | 1 | Can be substituted with generic.|
-| 1.5 mL tube cooler rack | Benchtop cooler | Thermo Scientific  | 1 | Can be subsituted with generic. Store in the fridge to avoid refreezing reagents. |
-| 2 mL tube rack | Microcentrifuge tube rack | VWR | 1 | Can be substituted with generic. |
-| 0.2 mL PCR plate rack | PCR tube rack for 0.2 mL micro-tubes | Fisher Scientific | 1 | Can be substituted with generic. |
-|Wash bottle|Safety Wash Bottle for Ethanol 500mL|VWR|1|Can be substituted with generic (not labeled specifically for EtOH). Must be sterilized before use|
-|Wash bottle|Safety Wash Bottle for Hypochlorite Bleach 500mL|VWR|1|Can be substituted with generic (not labeled specifically for bleach). Must be sterilized before use|
-|Freezer|Freezer capable of reaching and maintaining -20°C|Generic|1|Used to store DNA and PCR reagents. **NOTE: a separate freezer should be used to store PCR products if possible.**|
-|Fridge| Refrigerator capable of reaching and maintaining 4°C|Generic|1|Used to store some PCR reagents **NOTE: a separate fridge should be used to hold PCR products if possible.**|
-|Trash bag holder|Bel-Art scienceware bench-top biohazard holders|Fisher Scientific|1|Can be substituted with generic.|
-|Cryoboxes|TruCool hinged lid cryoboxes|VWR|2|Can be substituted with generic, but recommend set color for eDNA and reagents. Must be sterilized before use. Can be used to store DNA tubes (pre-PCR) and reagent aliquots. |
+| PCR cooler rack | PCR cooler 0.2-0.5 mL | Eppendorf | 1 | Can be substituted with generic|
+| 1.5 mL tube cooler rack | Benchtop cooler | Thermo Scientific  | 1 | Can be subsituted with generic |
+| 2 mL tube rack | Microcentrifuge tube rack | VWR | 1 | Can be substituted with generic |
+| 0.2 mL PCR plate rack | PCR tube rack for 0.2 mL micro-tubes | Fisher Scientific | 1 | Can be substituted with generic |
+|Wash bottle|Safety Wash Bottle for Ethanol 500mL|VWR|1|Can be substituted with generic - must be sterilized before use|
+|Wash bottle|Safety Wash Bottle for Hypochlorite Bleach 500mL|VWR|1|Can be substituted with generic - must be sterilized before use|
+|Freezer|Freezer capable of reaching and maintaining -20°C|Generic|1| Used to store DNA and PCR reagents **NOTE: A separate freezer should be used to store PCR products if possible.**|
+|Fridge| Refrigerator capable of reaching and maintaining 4°C|Generic|1|Used to store some PCR reagents **NOTE: A separate fridge should be used to hold PCR products if possible.**|
+|Trash bag holder|Bel-Art scienceware bench-top biohazard holders|Fisher Scientific|1|Can be substituted with generic|
+|Cryoboxes|TruCool hinged lid cryoboxes|VWR|2| Can be substituted with generic - must be sterilized before use |
 | **Consumable equipment** |
-| 1000 μL pipette tips | TipOne RPT filter tips 1000 μL XL graduated | USA Scientific | 4 | Can be subsituted with generic. Must be sterile and filtered. |
-| 200 μL pipette tips  | TipOne RPT filter tips 200 μL graduated| USA Scientific |4 | Can be subsituted with generic. Must be sterile and filtered. |
-| 10 μL pipette tips  | TipOne RPT filter tips 10 μL graduated | USA Scientific | 96 | Can be subsituted with generic. Must be sterile and filtered. |
-| PCR plates | Twin.tec LoBind PCR plates, semi-skirted (96-wells)| Eppendorf | 1 | Can be subsituted with generic. Must be DNA low retention. |
-| PCR aluminum foil | Adhesive sterile PCR foil seals | VWR| 1 | Can be subsituted with generic. Must be sterile. |
-| 2 mL tubes | Snap cap DNA LoBind 2.0 mL tubes, PCR-clean| Eppendorf |5 | Can be substituted with generic. Must be sterile. |
-| 1.5 mL tubes | Snap cap DNA LoBind 1.5 mL tubes, PCR-clean| Eppendorf |2 | Can be substituted with generic. Must be sterile. |
-| Kimwipes | Delicate task wipes | Kimtech | 5 | Can be substituted with generic. Must be lint-free.|
+| 1000 μL pipette tips | TipOne RPT filter tips 1000 μL XL graduated | USA Scientific | 4 | Can be subsituted with generic - must be sterile and filtered |
+| 200 μL pipette tips  | TipOne RPT filter tips 200 μL graduated| USA Scientific |4 | Can be subsituted with generic - must be sterile and filtered |
+| 10 μL pipette tips  | TipOne RPT filter tips 10 μL graduated | USA Scientific | 96 | Can be subsituted with generic - must be sterile and filtered |
+| PCR plates | Twin.tec LoBind PCR plates, semi-skirted (96-wells)| Eppendorf | 1 | Can be subsituted with generic - must be DNA low retention |
+| PCR aluminum foil | Adhesive sterile PCR foil seals | VWR| 2 | Can be substituted with generic - must be sterile. |
+| 2 mL tubes | Snap cap DNA LoBind 2.0 mL tubes, PCR-clean| Eppendorf |5 | Can be substituted with generic - must be sterile. |
+| 1.5 mL tubes | Snap cap DNA LoBind 1.5 mL tubes, PCR-clean| Eppendorf |2 | Can be substituted with generic - must be sterile. |
+| Kimwipes | Delicate task wipes | Kimtech | 5 | |
 | Nitrile gloves | Powder Free Nitrile Gloves | Fisher Scientific | 4 | Can be subsituted with generic nitrile gloves. Does not come sterile, must be sterilized before use (10% bleach followed by 70% EtOH) |
 |Trash bags for BSC|Teivio 1.2 Gallon 360 Counts Strong Trash Bags|Teivio|1|Can be substituted with generic.|
 | Lab notebook | Durable, hardcover lab notebook | Generic | 1 | Dedicated to the lab space|
 | Writing utensils | Sharpies and pens | Generic | 2 | Dedicated to the lab extraction space. Not made of wood - must be able to be wiped down with bleach/EtOH.  |
 |**Optional Equipment**|||			
-|Repeater Pipetter: 10-300  μL|E1-ClipTip electronic single channel pipette, 10-300 μL|ThermoFisher|	1|Can be substituted with generic. Not required but reduces protocol time.|
+|Repeater Pipetter: 10-300  μL|E1-ClipTip electronic single channel pipette, 10-300 μL |ThermoFisher|	1|Can be substituted with generic - not required but reduces protocol time|
 | 300 μl repeater pipette tips | ClipTip 300 filtered sterile tips| Thermo Scientific| 2| Can be substituted with generic. Must fit repeater pipette. Must be sterile and filtered. |
 |8-channel multichannel pipetter: 1-10 μL| Pipetman Multichannel P8X10|	Gilson|	1|Can be substituted with generic. Not required but reduces protocol time.|
 | UV crosslinker | UV crosslinker AH (115V), 234100 | Boekel Scientific  | 1 | Recommended not required; can be substituted. |
 | **Chemicals** |
-| PCR master mix 2x|Phusion High-Fidelity PCR Master Mix with HF Buffer | New England BioLabs | 1300 |(μl per plate) Store at -20°C. |
-| Forward primer | Custom oligo | IDT |130 |(μl per plate) Store at -20°C.|
-| Reverse primer| Custom oligo | IDT | 130  |(μl per plate) Store at -20°C.
-| Nuclease free water | UltraPure DNase/RNase-free distilled water | ThermoFisher | 689|(μl per plate) |
-| rAlbumin |Molecular Biology Grade Recombinant Albumin | New England BioLabs | 65|(μl per plate) Store at -20°C|
-|DMSO|Phusion HF PCR Master Mix comes with DMSO|New England Biolabs| 78|(μl per plate) Store at 4°C, must be warmed to room temperature to dissolve|
-| Positive control| gBlocks HiFi Gene Fragments | IDT | 2 |(μl per plate) Store at -20°C |
-| 70% EtOH | Molecular grade ethanol| Generic | 20 |(mL) |
-| 10% bleach| Hypochlorite bleach |Clorox| 10 |(mL) Remake every ~5 days as bleach decomposes quickly at 10% concentration. |
+| PCR master mix 2x|Phusion High-Fidelity PCR Master Mix with HF Buffer | New England BioLabs | 1300 μl per plate | Store at -20°C. |
+| Forward primer | Custom oligo | IDT |130 μl per plate |Store at -20°C.|
+| Reverse primer| Custom oligo | IDT | 130 μl per plate|Store at -20°C.
+| Nuclease free water | UltraPure DNase/RNase-free distilled water | ThermoFisher | 689 μl per plate| |
+| rAlbumin |Molecular Biology Grade Recombinant Albumin | New England BioLabs | 65 μl per plate|Store at -20°C|
+|DMSO|Phusion HF PCR Master Mix comes with DMSO|New England Biolabs| 78 μl per plate| Store at 4°C - must be warmed to room temperature to dissolve|
+| Positive control| gBlocks HiFi Gene Fragments | IDT | 2 μl per plate |Store at -20°C |
+| 70% EtOH | Molecular grade ethanol| Generic | 40 mL | |
+| 10% bleach| Hypochlorite bleach |Clorox| 40 mL | Remake every ~5 days as bleach decomposes quickly at 10% concentration. |
 
-------
-# STANDARD OPERATING PROCEDURE
+- Description: E.g., "filter".
+- Product Name and Model: Provide the official name of the product.
+- Manufacturer: Provide the name of the manufacturer of the product.
+- Quantity: Provide quantities necessary for one application of the standard operating procedure (e.g., number of filters).
+- Remark: For example, some of the consumable may need to be sterilized, some commercial solution may need to be diluted or shielded from light during the operating procedure.
 
-### Preparation
+## STANDARD OPERATING PROCEDURE
 
+### Protocol
 
-**Before PCR Setup:**
+#### Preparation
 
 1. Sterilize workspaces and durable equipment, including pipettes within the BSC with 10% bleach. Then wipe down all surfaces and equipment with 70% EtOH.
 4. If you have a UV crosslinker available, UV pipettes and tube racks regularly for 2 minutes. 
 5. Run the UV light in the BSC for 30 minutes before starting work.
 6. Label all PCR plates both on the side of the plate and on the top of the foil (in the plate margins). Recommended labeling scheme includes plate name, primer, date of PCR and personnel initials.
 
-### PCR
+
+#### PCR
 
 **Primer Sequences without Adapters**(not used): PCR primer sequences
 (**target sequence bolded**)
@@ -225,12 +291,13 @@ This table breaks down the mixture per plate and per reaction. When running full
 14.  Run thermocycler protocol.
 
 
-## Quality control
+### Quality control
 
 1. Plates should be removed from the thermocycler  after the run completes and stored at 4°C until run on a gel. Storing the PCR product at -20˚C is ideal for 1-6 month term storage, while -80˚C is ideal for long-term storage.
 2. Run gel visualization to confirm successful PCR. [NOAA-PMEL-OME-GelVisualization-Protocol pending]
 
 **Positive Control**
+
 A positive control is used in every PCR run to verify success of the PCR reaction. In place of template DNA, 2 μL of positive control diluted to 10^3 copies/µL is used. One well per plate is alotted for the positive control. The positive control used for MiFIsh 12S is the extinct Haast Eagle (*Harpagornis moorei*) native to New Zealand. The reference mitogenome used to develop the positive control sequence can be found on GenBank: [Accession MK294166.1](https://www.ncbi.nlm.nih.gov/nuccore/1588055484). We note that this accession had 3 mismatches in the forward primer and thus we modified the positive control to use the exact primer sequence to avoid mismatches.
 
 
@@ -240,9 +307,12 @@ A positive control is used in every PCR run to verify success of the PCR reactio
 
 **Negative Control**
 
+The inclusion of a negative control for PCR is to confirm the absence of contamination during the process. 
+
 Nuclease-free water is used as a no template control (NTC) when setting up each PCR plate. One well per plate is alloted to a NTC. NTCs should be run in addition to both field blanks and extraction blanks.
 
-## Basic troubleshooting guide
+
+### Basic troubleshooting guide
 
 **Issue 1**: Streaking is observed for sample wells in gel but positive control band appears normal. 
 
@@ -254,43 +324,21 @@ Nuclease-free water is used as a no template control (NTC) when setting up each 
 
 **Issue 3**: Band observed in no template control.
 
-**Solution**: The PCR was likely contaminated. Sterilize lab space thoroughly and rerun with new aliquots of reagents.
+**Solution**: The PCR was likely contaminated. Sterilize lab space and equipment thoroughly, then rerun with new aliquots of reagents and primers.
 
+**Issue 4**: Low Volume Post-PCR
 
-## ACRONYMS AND ABBREVIATIONS
+**Solution**: If using strip-caps, ensure they are tightly fitting on wells. Any gap in the lid will allow for some volume to evaporate during the PCR process on the thermal cycler. If using PCR plate seals, spin down the plate after taking it off the thermal cycler to ensure all condensation is drawn back into the well.
 
-| ACRONYM / ABBREVIATION | DEFINITION |
-| ------------- | ------------- |
-|eDNA	|environmental DNA|
-|PCR| Polymerase chain reaction |
-|PPE    | Personal protective equipment |
-|EtOH| Ethanol|
-|12S rRNA  |12S mitochondrial ribosomal RNA |
-|IDT| Integrated DNA Technologies
-|NTC	|No template control
-|BSC	|Biosafety cabinent
-|OME	|Ocean Molecular Ecology
-|PMEL	|Pacific Marine Environmental Laboratory
-|NOAA|National Oceanic and Atmospheric Administration
-|UW| University of Washington
-|CICOES| Cooperative Institute for Climate, Ocean, & Ecosystem Studies
-|MBON	|Marine Biodiversity Observation Network|
-|MBARI| Monterey Bay Aquarium Research Institute|
-|WC-OBON|West Coast Ocean Biomolecular Observing Network|
+**Issue 5**: Weak Amplification
 
-## GLOSSARY
-
-| SPECIALISED TERM | DEFINITION |
-| ------------- | ------------- |
-| Field blank  | Sampling negative control. Typically distilled or reverse osmosis water run through a filter like an seawater eDNA sample to control for contamination in the field sampling step.  |
-| Extraction blank  | Extraction negative control. Typically nuclease-free water or empty filter run through the DNA extraction process to control for contamination in the DNA extraction step.  |
-| No template control | PCR negative control. Typically nuclease-free water loaded in place of a sample on a PCR to control for contamination in the PCR step. |
-| Positive control  | PCR positive control. Typically a synthetic DNA strand, non-indigenous DNA extract, or intentionally designed mock community loaded in place of a sample on a PCR to control for contamination and index hopping in the PCR step. |
+**Solution**: If there are weak amplification bands on the gel, ensure the master mix and DNA is being fully mixed. You can also increase the concentration of primers or tweak the PCR process on the thermal cycler (increasing # of cycles of PCR or optimize annealing temperature).
 
 ## REFERENCES
 
 1. Miya M., Sato Y., Fukunaga T., Sado T., Poulsen J. Y., Sato K., Minamoto T., Yamamoto S., Yamanaka H., Araki H., Kondoh M. and Iwasaki W. 2015MiFish, a set of universal PCR primers for metabarcoding environmental DNA from fishes: detection of more than 230 subtropical marine speciesR. Soc. Open Sci.2150088150088
 http://doi.org/10.1098/rsos.150088
 2. Sales NG, Wangensteen OS, Carvalho DC, Mariani S. Influence of preservation methods, sample medium and sampling time on eDNA recovery in a neotropical river. Environmental DNA. 2020; 00: 119–130. https://doi.org/10.1002/edn3.14
+
 ## APPENDIX A: DATASHEETS
 [Protocol Sample Sheet](https://docs.google.com/spreadsheets/d/1CeQgpwbMzVP9k2CyVIONiJwHmqqe12lD/edit?usp=drive_web&ouid=110378748446083367071&rtpof=true)
