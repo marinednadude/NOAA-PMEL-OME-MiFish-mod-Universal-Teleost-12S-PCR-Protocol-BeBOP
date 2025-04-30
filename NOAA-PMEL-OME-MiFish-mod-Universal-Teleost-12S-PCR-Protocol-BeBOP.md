@@ -100,9 +100,9 @@ pcr_method_additional: Quality was validated via confirmation of a product on a 
 
 #### External Protocols
 
-| PROTOCOL NAME                                                                                                                                                                                                                                                                                                                | LINK                                                                                                                             | VERSION | RELEASE DATE |
+| PROTOCOL NAME | LINK | VERSION | RELEASE DATE |
 | --------- | --------------------- | ------- | ------------ |
-| [NOAA Northwest Fisheries Science Center](https://www.fisheries.noaa.gov/about/conservation-biology-division-northwest-fisheries-science-center) & [MMARINeDNA: Marine Mammal Remote detection via INnovative environmental DNA sampling](https://www.ednacollab.org/mmarinedna-about) MiFish 12S Universal Teleost Protocol | [Pending Shaffer et al. 2024 publication](https://drive.google.com/file/d/15s1KfLccbXUQExfHI0RWwWSu1QNImBCt/view?usp=drive_link) |         | Pending      |
+| [NOAA Northwest Fisheries Science Center](https://www.fisheries.noaa.gov/about/conservation-biology-division-northwest-fisheries-science-center) & [MMARINeDNA: Marine Mammal Remote detection via INnovative environmental DNA sampling](https://www.ednacollab.org/mmarinedna-about) MiFish 12S Universal Teleost Protocol | [Pending Shaffer et al. 2024 publication] |         | Pending      |
 
 
 ### Protocol Revision Record
@@ -113,7 +113,7 @@ pcr_method_additional: Quality was validated via confirmation of a product on a 
 | 1.0.1 | 2024-05-29 | Formatting edits |
 | 1.0.2 | 2024-10-23 | File edits |
 | 1.1.0 | 2025-02-05 | Addition of FAIR eDNA terms in YAML frontmatter and formatting edits |
-| 1.1.1 | 2025-04-30 | Standardization of FARE eDNA terms |
+| 1.1.1 | 2025-04-30 | Standardization of FARE eDNA terms and formatting updates |
 
 - Version numbers start at 1.0.0 when the protocol is first completed and will increase when changes that impact the outcome of the procedure are made (patches: 1.0.1; minor changes: 1.1.0; major changes: 2.0.0).
 - Release date is the date when a given protocol version was finalised.
