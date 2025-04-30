@@ -24,7 +24,7 @@ pcr_0_1: 1
 inhibition_check_0_1: not applicable
 inhibition_check: not applicable
 thermocycler: Applied Biosystems Veriti 96-well thermal cycler
-assay_name: ssu12sv5v6_mifish_u_mod
+assay_name: ssu12sv5v6_mifish_u_sales
 assay_validation: The assay has been validated through mutli-step in-silico, in-vitro, and in-situ validations. In addition to repeat analysis with alternate assays and intra/inter species tests. See BeBOP for citations.
 targetTaxonomicAssay: 12S rRNA gene sequencing targeting the V5-V6 region using primers MiFish-U-F_mod and MiFish-U-R
 targetTaxonomicScope: fishes
@@ -216,29 +216,29 @@ For a 96-well Plate:
 | 200 μL pipette tips  | TipOne RPT filter tips 200 μL graduated| USA Scientific |4 | Can be subsituted with generic - must be sterile and filtered |
 | 10 μL pipette tips  | TipOne RPT filter tips 10 μL graduated | USA Scientific | 96 | Can be subsituted with generic - must be sterile and filtered |
 | PCR plates | Twin.tec LoBind PCR plates, semi-skirted (96-wells)| Eppendorf | 1 | Can be subsituted with generic - must be DNA low retention |
-| PCR aluminum foil | Adhesive sterile PCR foil seals | VWR| 2 | Can be substituted with generic - must be sterile. |
-| 2 mL tubes | Snap cap DNA LoBind 2.0 mL tubes, PCR-clean| Eppendorf |5 | Can be substituted with generic - must be sterile. |
-| 1.5 mL tubes | Snap cap DNA LoBind 1.5 mL tubes, PCR-clean| Eppendorf |2 | Can be substituted with generic - must be sterile. |
+| PCR aluminum foil | Adhesive sterile PCR foil seals | VWR| 2 | Can be substituted with generic - must be sterile |
+| 2 mL tubes | Snap cap DNA LoBind 2.0 mL tubes, PCR-clean| Eppendorf |5 | Can be substituted with generic - must be sterile |
+| 1.5 mL tubes | Snap cap DNA LoBind 1.5 mL tubes, PCR-clean| Eppendorf |2 | Can be substituted with generic - must be sterile |
 | Kimwipes | Delicate task wipes | Kimtech | 5 | |
 | Nitrile gloves | Powder Free Nitrile Gloves | Fisher Scientific | 4 | Can be subsituted with generic nitrile gloves. Does not come sterile, must be sterilized before use (10% bleach followed by 70% EtOH) |
-|Trash bags for BSC|Teivio 1.2 Gallon 360 Counts Strong Trash Bags|Teivio|1|Can be substituted with generic.|
+|Trash bags for BSC|Teivio 1.2 Gallon 360 Counts Strong Trash Bags|Teivio|1|Can be substituted with generic|
 | Lab notebook | Durable, hardcover lab notebook | Generic | 1 | Dedicated to the lab space|
-| Writing utensils | Sharpies and pens | Generic | 2 | Dedicated to the lab extraction space. Not made of wood - must be able to be wiped down with bleach/EtOH.  |
+| Writing utensils | Sharpies and pens | Generic | 2 | Dedicated to the lab extraction space. Not made of wood - must be able to be wiped down with bleach/EtOH  |
 |**Optional Equipment**|||			
 |Repeater Pipetter: 10-300  μL|E1-ClipTip electronic single channel pipette, 10-300 μL |ThermoFisher|	1|Can be substituted with generic - not required but reduces protocol time|
 | 300 μl repeater pipette tips | ClipTip 300 filtered sterile tips| Thermo Scientific| 2| Can be substituted with generic. Must fit repeater pipette. Must be sterile and filtered. |
 |8-channel multichannel pipetter: 1-10 μL| Pipetman Multichannel P8X10|	Gilson|	1|Can be substituted with generic. Not required but reduces protocol time.|
-| UV crosslinker | UV crosslinker AH (115V), 234100 | Boekel Scientific  | 1 | Recommended not required; can be substituted. |
+| UV crosslinker | UV crosslinker AH (115V), 234100 | Boekel Scientific  | 1 | Can be substituted with generic - recommended not required |
 | **Chemicals** |
-| PCR master mix 2x|Phusion High-Fidelity PCR Master Mix with HF Buffer | New England BioLabs | 1300 μl per plate | Store at -20°C. |
-| Forward primer | Custom oligo | IDT |130 μl per plate |Store at -20°C.|
-| Reverse primer| Custom oligo | IDT | 130 μl per plate|Store at -20°C.
-| Nuclease free water | UltraPure DNase/RNase-free distilled water | ThermoFisher | 689 μl per plate| |
+| PCR master mix 2x|Phusion High-Fidelity PCR Master Mix with HF Buffer | New England BioLabs | 1300 μl per plate | Store at -20°C |
+| Forward primer | Custom oligo | IDT |130 μl per plate |Store at -20°C|
+| Reverse primer| Custom oligo | IDT | 130 μl per plate|Store at -20°C|
+| Nuclease free water | UltraPure DNase/RNase-free distilled water | ThermoFisher | 689 μl per plate||
 | rAlbumin |Molecular Biology Grade Recombinant Albumin | New England BioLabs | 65 μl per plate|Store at -20°C|
 |DMSO|Phusion HF PCR Master Mix comes with DMSO|New England Biolabs| 78 μl per plate| Store at 4°C - must be warmed to room temperature to dissolve|
 | Positive control| gBlocks HiFi Gene Fragments | IDT | 2 μl per plate |Store at -20°C |
 | 70% EtOH | Molecular grade ethanol| Generic | 40 mL | |
-| 10% bleach| Hypochlorite bleach |Clorox| 40 mL | Remake every ~5 days as bleach decomposes quickly at 10% concentration. |
+| 10% bleach| Hypochlorite bleach |Clorox| 40 mL | Remake every ~5 days as bleach decomposes quickly at 10% concentration |
 
 - Description: E.g., "filter".
 - Product Name and Model: Provide the official name of the product.
@@ -255,7 +255,7 @@ For a 96-well Plate:
 1. Sterilize workspaces and durable equipment, including pipettes within the BSC with 10% bleach. Then wipe down all surfaces and equipment with 70% EtOH.
 4. If you have a UV crosslinker available, UV pipettes and tube racks regularly for 2 minutes. 
 5. Run the UV light in the BSC for 30 minutes before starting work.
-6. Label all PCR plates both on the side of the plate and on the top of the foil (in the plate margins). Recommended labeling scheme includes plate name, primer, date of PCR and personnel initials.
+6. Label all PCR plates both on the side of the plate and on the top of the foil (in the plate margins). Recommended labeling scheme includes plate name, primer, date of PCR, and personnel initials.
 
 
 #### PCR
@@ -312,10 +312,10 @@ This table breaks down the mixture per plate and per reaction. When running full
 4. Set out template DNA to thaw if frozen.
 5. Aliquot 23 μL of final master mix into each well of the PCR plate. The plate should sit in a cold block to ensure the reagents remain at a low temperature.
 6. Add 2 μL DNA template to each well (See [Protocol Sample Sheet](https://docs.google.com/spreadsheets/d/1GiYxSuAibLr0o4OulZFxdJbhuhW9fhLBwIDK_UkXR90/edit?usp=sharing)), but reserve two wells for the positive control and a no template control (NTC). 
-8. To one well each, add 2 μL of the positive control and 2 μL of nuclease-free water for the NTC.
-9. Seal the PCR plate with foil.
-10. Spin down the plate, and then transport in cooler blocks before placing in thermocycler.
-14.  Run thermocycler protocol.
+7. To one well each, add 2 μL of the positive control and 2 μL of nuclease-free water for the NTC.
+8. Seal the PCR plate with foil.
+9. Spin down the plate, and then transport in cooler blocks before placing in thermocycler.
+10.  Run thermocycler protocol.
 
 
 ### Quality control
