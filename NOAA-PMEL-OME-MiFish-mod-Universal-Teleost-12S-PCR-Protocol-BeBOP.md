@@ -273,7 +273,7 @@ For a 96-well Plate:
 |MiFish-U-mod - Nex - F|Forward  | TCGTCGGCAGCGTCAGATGTGTATAAGAGACAG**GCCGGTAAAACTCGTGCCAGC** |
 | MiFish-U - Nex - R| Reverse | GTCTCGTGGGCTCGGAGATGTGTATAAGAGACAG**CATAGTGGGGTATCTAATCCCAGTTTG** |
 
-**Reaction Mixture**: PCR reagents, volumes, initial and final concentrations
+**Reaction Mixture**: PCR reagents, volumes, initial, and final concentrations
 
 | Reagent |Volume (μL) per plate| Volume (μL) per reaction | Intial concentration| Final concentration|
 | ----- | ----- | ----- |----- |----- |
