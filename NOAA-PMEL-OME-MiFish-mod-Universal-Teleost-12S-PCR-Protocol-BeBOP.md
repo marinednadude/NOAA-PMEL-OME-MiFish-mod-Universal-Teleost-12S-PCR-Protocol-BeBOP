@@ -102,14 +102,15 @@ pcr_method_additional: Quality was validated via confirmation of a product on a 
 
 | PROTOCOL NAME | LINK | VERSION | RELEASE DATE |
 | --------- | --------------------- | ------- | ------------ |
-| [NOAA Northwest Fisheries Science Center](https://www.fisheries.noaa.gov/about/conservation-biology-division-northwest-fisheries-science-center) & [MMARINeDNA: Marine Mammal Remote detection via INnovative environmental DNA sampling](https://www.ednacollab.org/mmarinedna-about) MiFish 12S Universal Teleost Protocol | [Pending Shaffer et al. 2024 publication] |         | Pending      |
+| Shaffer, M. R., Allan, E. A., Van Cise, A. M., Parsons, K. M., Shleton, A. O., Kelly, R. P (2025,973
+in press) Observation bias in metabarcoding. Molecular Ecology Resources. | Pending |         | Pending      |
 
 
 ### Protocol Revision Record
 
 | VERSION | RELEASE DATE | DESCRIPTION OF REVISIONS |
 | ------------- | ------------- | ------------- |
-| 1.0.0 | 2024-02-01 | Initial release |
+| 1.0.0 | 2024-02-02 | Initial release |
 | 1.0.1 | 2024-05-29 | Formatting edits |
 | 1.0.2 | 2024-10-23 | File edits |
 | 1.1.0 | 2025-02-05 | Addition of FAIR eDNA terms in YAML frontmatter and formatting edits |
