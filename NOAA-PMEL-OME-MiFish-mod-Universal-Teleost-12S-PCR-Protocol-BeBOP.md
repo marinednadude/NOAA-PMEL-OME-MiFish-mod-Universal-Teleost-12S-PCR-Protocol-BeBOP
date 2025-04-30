@@ -153,7 +153,7 @@ pcr_method_additional: Quality was validated via confirmation of a product on a 
 
 ### Summary
 
-This protocol describes steps for performing PCR for the 12S mitochondrial ribosomal RNA gene in vertebrates using eDNA. The primers (forward: MiFish-U-F_mod, reverse: MiFish-U-R) were first presented in Sales et al. 2019 (forward) and Miya et al. 2015 (reverse). The MiFish-U-F_mod primer used in this protocol has 1 basepair substition from the MiFish-U-F primer used in Miya et al. 2015, but is otherwise identical. The target amplicon size is 163 - 185 base pairs.
+This protocol describes steps for performing PCR for the 12S mitochondrial ribosomal RNA gene in vertebrates using eDNA. The primers (forward: MiFish-U-F_mod, reverse: MiFish-U-R) were first presented in [Sales et al. 2019](https://doi.org/10.1002/edn3.14) (forward) and [Miya et al. 2015](http://doi.org/10.1098/rsos.150088) (reverse). The MiFish-U-F_mod primer used in this protocol has 1 basepair substition from the MiFish-U-F primer used in [Miya et al. 2015](http://doi.org/10.1098/rsos.150088), but is otherwise identical. The target amplicon size is 163 - 185 base pairs.
 
 This primer set targets vertebrates organisms (e.g., fishes, marine mammals, birds). Important note, this primer also amplifies non-target organisms including microbes and single-celled phytoplankton (e.g., proteobacteria and diatoms).
 
