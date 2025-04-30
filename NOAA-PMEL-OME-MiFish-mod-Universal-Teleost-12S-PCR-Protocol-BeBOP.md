@@ -47,7 +47,7 @@ probe_seq: not applicable
 probe_ref: not applicable
 probe_conc: not applicable
 commercial_mm: Phusion High-Fidelity PCR Master Mix with HF Buffer (NEB - M0531L])
-custom_mm: PCR reactions were run in 25 uL reaction volumes, with 2 uL of DNA, 12.5 uL of 2X Phusion Master Mix, 6.625 uL of water, 0.625 uL rAlbumin, 0.75 uL DMSO and 1.25 uL of each primer (10 uM).
+custom_mm: PCR reactions were run in 25 uL reaction volumes, with 2 uL of DNA, 12.5 uL of 2X Phusion Master Mix, 6.625 uL of water, 0.625 uL rAlbumin, 0.75 uL DMSO, and 1.25 uL of each primer (10 uM).
 block_seq: not applicable
 block_ref: not applicable
 block_taxa: not applicable
