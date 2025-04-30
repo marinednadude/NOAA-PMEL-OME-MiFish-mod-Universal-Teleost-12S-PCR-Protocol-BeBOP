@@ -1,7 +1,7 @@
 ---
 #MIOP terms
 methodology_category: Omics analysis
-project: NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Group Protocols
+project: NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Group protocols
 purpose: PCR [OBI:0000415]
 analyses: PCR [OBI:0000415]
 geographic_location: North East Pacific Ocean [GAZ:00013765], Bering Sea [GAZ:00008990], Arctic Ocean [GAZ:00000323]
@@ -23,7 +23,7 @@ publisher: NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology 
 pcr_0_1: 1
 inhibition_check_0_1: not applicable
 inhibition_check: not applicable
-thermocycler: Applied Biosystems Veriti 96-well Thermalcycler
+thermocycler: Applied Biosystems Veriti 96-well thermal cycler
 assay_name: ssu12sv5v6_mifish_u_mod
 assay_validation: The assay has been validated through mutli-step in-silico, in-vitro, and in-situ validations. In addition to repeat analysis with alternate assays and intra/inter species tests. See BeBOP for citations.
 targetTaxonomicAssay: 12S rRNA gene sequencing targeting the V5-V6 region using primers MiFish-U-F_mod and MiFish-U-R
@@ -59,7 +59,7 @@ pcr_cond: initial denaturation:98_0.5;normal_cycling;denaturation:98_0.17;anneal
 annealingTemp: 60
 pcr_cycles: 35
 pcr_analysis_software: missing":" not provided
-pcr_method_additional: Quality control was validated via confirmation of a product on a gel.
+pcr_method_additional: Quality was validated via confirmation of a product on a gel.
 ---
 
 # NOAA PMEL OME MiFish mod Universal Teleost 12S PCR Protocol
