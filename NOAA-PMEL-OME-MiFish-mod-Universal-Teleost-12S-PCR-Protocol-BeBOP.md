@@ -17,7 +17,7 @@ personnel_required: 1
 language: en
 issued: 2025-01-05
 audience: scientists
-publisher: NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Program; University of Washington Cooperative Institute for Climate, Ocean, & Ecosystem Studies
+publisher: NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Group; University of Washington Cooperative Institute for Climate, Ocean, & Ecosystem Studies
 
 # FAIRe terms
 pcr_0_1: 1
