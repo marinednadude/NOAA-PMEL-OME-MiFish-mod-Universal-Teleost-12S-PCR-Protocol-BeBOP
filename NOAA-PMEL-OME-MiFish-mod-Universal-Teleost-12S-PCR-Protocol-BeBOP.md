@@ -21,8 +21,9 @@ publisher: NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology 
 
 # FAIRe terms
 pcr_0_1: 1
+inhibition_check_0_1: not applicable
+inhibition_check: not applicable
 thermocycler: Applied Biosystems Veriti 96-well thermal cycler
-amplificationReactionVolume: 25
 assay_name: mifish_mod_universal_teleost_12s
 assay_validation: not provided
 targetTaxonomicAssay: 12S rRNA gene sequencing targeting the V5-V6 region using primers MiFish-U-F_mod and MiFish-U-R
@@ -47,6 +48,10 @@ probe_ref: not applicable
 probe_conc: not applicable
 commercial_mm: Phusion High-Fidelity PCR Master Mix with HF Buffer
 custom_mm: PCR reactions were run in 25 uL reaction volumes, with 2 uL of DNA, 12.5 uL of AmpliTaq Gold, 6.625 uL of water, 0.625 uL rAlbumin, 0.75 uL DMSO and 1.25 uL of each primer (10 uM).
+amplificationReactionVolume: 25
+block_seq: not applicable
+block_ref: not applicable
+block_taxa: not applicable
 pcr_dna_vol: 2
 pcr_rep: 1
 nucl_acid_amp: Not Provided
