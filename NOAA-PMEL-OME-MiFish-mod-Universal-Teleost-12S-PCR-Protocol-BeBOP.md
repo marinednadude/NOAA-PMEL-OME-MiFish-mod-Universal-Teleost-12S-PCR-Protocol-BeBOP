@@ -253,10 +253,9 @@ For a 96-well Plate:
 #### Preparation
 
 1. Sterilize workspaces and durable equipment, including pipettes within the BSC with 10% bleach. Then wipe down all surfaces and equipment with 70% EtOH.
-4. If you have a UV crosslinker available, UV pipettes and tube racks regularly for 2 minutes. 
-5. Run the UV light in the BSC for 30 minutes before starting work.
-6. Label all PCR plates both on the side of the plate and on the top of the foil (in the plate margins). Recommended labeling scheme includes plate name, primer, date of PCR, and personnel initials.
-
+2. If you have a UV crosslinker available, UV pipettes and tube racks regularly for 2 minutes.
+3. Run the UV light in the BSC for 30 minutes before starting work.
+4. Label all PCR plates both on the side of the plate and on the top of the foil (in the plate margins). Recommended labeling scheme includes plate name, primer, date of PCR, and personnel initials.
 
 #### PCR
 
