@@ -102,8 +102,7 @@ pcr_method_additional: Quality was validated via confirmation of a product on a 
 
 | PROTOCOL NAME | LINK | VERSION | RELEASE DATE |
 | --------- | --------------------- | ------- | ------------ |
-| Shaffer, M. R., Allan, E. A., Van Cise, A. M., Parsons, K. M., Shleton, A. O., Kelly, R. P (2025,973
-in press) Observation bias in metabarcoding. Molecular Ecology Resources. | Pending |         | Pending      |
+| Shaffer, M. R., Allan, E. A., Van Cise, A. M., Parsons, K. M., Shleton, A. O., Kelly, R. P (2025,973 in press) Observation bias in metabarcoding. Molecular Ecology Resources. | Pending |         | Pending      |
 
 
 ### Protocol Revision Record
