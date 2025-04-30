@@ -75,11 +75,11 @@ pcr_method_additional: Quality was validated via confirmation of a product on a 
 
 | PREPARED BY | AFFILIATION | ORCID | DATE |
 | ------------- | ------------- | ------------- | ------------- |
-| Shannon Brown | Ocean Molecular Ecology, NOAA PMEL & UW CICOES  | <https://orcid.org/0000-0001-9808-2638>|2024-02-02|
-| Han Weinrich  | Ocean Molecular Ecology, NOAA PMEL & UW CICOES  | <http://orcid.org/0009-0007-6063-0986>|2024-02-02|
-| Sean McAllister |Ocean Molecular Ecology, NOAA PMEL & UW CICOES	|<http://orcid.org/0000-0001-6654-3495>|2024-02-02|
-| Matt Galaska	|Ocean Molecular Ecology, NOAA PMEL|<http://orcid.org/0000-0002-4257-0170>	|2024-02-02|
-| Zachary Gold	|Ocean Molecular Ecology, NOAA PMEL	|<http://orcid.org/0000-0003-0490-7630>	|2024-02-02|
+| Shannon Brown | Ocean Molecular Ecology, NOAA PMEL & UW CICOES  | <https://orcid.org/0000-0001-9808-2638>|2024-02-01|
+| Han Weinrich  | Ocean Molecular Ecology, NOAA PMEL & UW CICOES  | <http://orcid.org/0009-0007-6063-0986>|2024-02-01|
+| Sean McAllister |Ocean Molecular Ecology, NOAA PMEL & UW CICOES	|<http://orcid.org/0000-0001-6654-3495>|2024-02-01|
+| Matt Galaska	|Ocean Molecular Ecology, NOAA PMEL|<http://orcid.org/0000-0002-4257-0170>	|2024-02-01|
+| Zachary Gold	|Ocean Molecular Ecology, NOAA PMEL	|<http://orcid.org/0000-0003-0490-7630>	|2024-02-01|
 
 - All authors known to have contributed to the preparation of this protocol should be listed, including those who filled in the template.
 - Visit <https://orcid.org/> to register for an ORCID.
@@ -109,7 +109,7 @@ pcr_method_additional: Quality was validated via confirmation of a product on a 
 
 | VERSION | RELEASE DATE | DESCRIPTION OF REVISIONS |
 | ------------- | ------------- | ------------- |
-| 1.0.0 | 2024-02-02 | Initial release |
+| 1.0.0 | 2024-02-01 | Initial release |
 | 1.0.1 | 2024-05-29 | Formatting edits |
 | 1.0.2 | 2024-10-23 | File edits |
 | 1.1.0 | 2025-02-05 | Addition of FAIR eDNA terms in YAML frontmatter and formatting edits |
