@@ -15,7 +15,7 @@ skills_required: sterile technique, pipetting skills, standard molecular techniq
 time_required: 170
 personnel_required: 1
 language: en
-issued: 2025-01-05
+issued: 2025-04-30
 audience: scientists
 publisher: NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Group; University of Washington Cooperative Institute for Climate, Ocean, & Ecosystem Studies
 
@@ -77,9 +77,9 @@ pcr_method_additional: Quality control was validated via confirmation of a produ
 | ------------- | ------------- | ------------- | ------------- |
 | Shannon Brown | Ocean Molecular Ecology, NOAA PMEL & UW CICOES  | <https://orcid.org/0000-0001-9808-2638>|2024-02-02|
 | Han Weinrich  | Ocean Molecular Ecology, NOAA PMEL & UW CICOES  | <http://orcid.org/0009-0007-6063-0986>|2024-02-02|
-|Sean McAllister	|Ocean Molecular Ecology, NOAA PMEL & UW CICOES	|<http://orcid.org/0000-0001-6654-3495>|2024-02-02|
-|Matt Galaska	|Ocean Molecular Ecology, NOAA PMEL|<http://orcid.org/0000-0002-4257-0170>	|2024-02-02|
-|Zachary Gold	|Ocean Molecular Ecology, NOAA PMEL	|<http://orcid.org/0000-0003-0490-7630>	|2024-02-02|
+| Sean McAllister |Ocean Molecular Ecology, NOAA PMEL & UW CICOES	|<http://orcid.org/0000-0001-6654-3495>|2024-02-02|
+| Matt Galaska	|Ocean Molecular Ecology, NOAA PMEL|<http://orcid.org/0000-0002-4257-0170>	|2024-02-02|
+| Zachary Gold	|Ocean Molecular Ecology, NOAA PMEL	|<http://orcid.org/0000-0003-0490-7630>	|2024-02-02|
 
 - All authors known to have contributed to the preparation of this protocol should be listed, including those who filled in the template.
 - Visit <https://orcid.org/> to register for an ORCID.
