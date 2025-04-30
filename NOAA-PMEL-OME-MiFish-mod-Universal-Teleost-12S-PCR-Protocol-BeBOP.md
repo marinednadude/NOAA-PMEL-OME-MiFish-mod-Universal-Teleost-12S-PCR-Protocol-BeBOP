@@ -23,12 +23,12 @@ publisher: NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology 
 pcr_0_1: 1
 inhibition_check_0_1: not applicable
 inhibition_check: not applicable
-thermocycler: Applied Biosystems Veriti 96-well thermal cycler
-assay_name: mifish_mod_universal_teleost_12s
-assay_validation: not provided
+thermocycler: Applied Biosystems Veriti 96-well Thermalcycler
+assay_name: ssu12sv5v6_mifish_u_mod
+assay_validation: The assay has been validated through mutli-step in-silico, in-vitro, and in-situ validations. In addition to repeat analysis with alternate assays and intra/inter species tests. See BeBOP for citations.
 targetTaxonomicAssay: 12S rRNA gene sequencing targeting the V5-V6 region using primers MiFish-U-F_mod and MiFish-U-R
 targetTaxonomicScope: fishes
-target_gene: 12S rRNA
+target_gene: 12S rRNA (SSU mitochondria)
 target_subfragment: V5-V6
 ampliconSize: 163-185
 pcr_primer_forward: GCCGGTAAAACTCGTGCCAGC
@@ -46,20 +46,20 @@ probeQuencher: not applicable
 probe_seq: not applicable
 probe_ref: not applicable
 probe_conc: not applicable
-commercial_mm: Phusion High-Fidelity PCR Master Mix with HF Buffer
+commercial_mm: Phusion High-Fidelity PCR Master Mix with HF Buffer (NEB - M0531L])
 custom_mm: PCR reactions were run in 25 uL reaction volumes, with 2 uL of DNA, 12.5 uL of AmpliTaq Gold, 6.625 uL of water, 0.625 uL rAlbumin, 0.75 uL DMSO and 1.25 uL of each primer (10 uM).
-amplificationReactionVolume: 25
 block_seq: not applicable
 block_ref: not applicable
 block_taxa: not applicable
+amplificationReactionVolume: 25
 pcr_dna_vol: 2
 pcr_rep: 1
-nucl_acid_amp: Not Provided
+nucl_acid_amp: https://doi.org/10.5281/zenodo.11398099
 pcr_cond: initial denaturation:98_0.5;normal_cycling;denaturation:98_0.17;annealing:60_0.5;elongation:72_0.75;final elongation:72_10;35
 annealingTemp: 60
 pcr_cycles: 35
-pcr_analysis_software: not provided
-pcr_method_additional: not provided
+pcr_analysis_software: missing: not provided
+pcr_method_additional: Quality control was validated via confirmation of a product on a gel.
 ---
 
 # NOAA PMEL OME MiFish mod Universal Teleost 12S PCR Protocol
@@ -113,6 +113,7 @@ pcr_method_additional: not provided
 | 1.0.1 | 2024-05-29 | Formatting edits |
 | 1.0.2 | 2024-10-23 | File edits |
 | 1.1.0 | 2025-02-05 | Addition of FAIR eDNA terms in YAML frontmatter and formatting edits |
+| 1.1.1 | 2025-04-30 | Standardization of FARE eDNA terms |
 
 - Version numbers start at 1.0.0 when the protocol is first completed and will increase when changes that impact the outcome of the procedure are made (patches: 1.0.1; minor changes: 1.1.0; major changes: 2.0.0).
 - Release date is the date when a given protocol version was finalised.
