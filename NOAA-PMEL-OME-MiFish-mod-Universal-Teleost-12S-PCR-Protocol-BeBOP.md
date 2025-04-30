@@ -1,7 +1,7 @@
 ---
 #MIOP terms
 methodology_category: Omics analysis
-project: NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Program Protocols
+project: NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Group Protocols
 purpose: PCR [OBI:0000415]
 analyses: PCR [OBI:0000415]
 geographic_location: North East Pacific Ocean [GAZ:00013765], Bering Sea [GAZ:00008990], Arctic Ocean [GAZ:00000323]
