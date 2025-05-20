@@ -50,7 +50,7 @@ probe_seq: not applicable
 probe_ref: not applicable
 probe_conc: not applicable
 commercial_mm: Phusion High-Fidelity PCR Master Mix with HF Buffer (NEB - M0531L)
-custom_mm: PCR reactions were run in 25 uL reaction volumes, with 2 uL of DNA, 12.5 uL of 2X Phusion Master Mix, 6.625 uL of water, 0.625 uL rAlbumin, 0.75 uL DMSO, and 1.25 uL of each primer (10 uM).
+custom_mm: PCR reactions were run in 25 μL reaction volumes, with 2 μL of DNA, 12.5 μL of 2X Phusion Master Mix, 6.625 μL of water, 0.625 μL rAlbumin, 0.75 μL DMSO, and 1.25 uL of each primer (10 μM).
 block_seq: not applicable
 block_ref: not applicable
 block_taxa: not applicable
@@ -200,8 +200,8 @@ For a 96-well Plate:
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | **Durable equipment**|
 |Pipetter: 1-10 μl|Pipetman P10L|Gilson|1|Can be substituted with any accurate pipettor|
-|Pipetter: 20 - 200 uL	|Pipetman P200L|Gilson|	1|Can be substituted with any accurate pipettor|
-|Pipetter: 100-1000 uL	|Pipetman P1000	|Gilson	|1|Can be substituted with any accurate pipettor|
+|Pipetter: 20 - 200 μL	|Pipetman P200L|Gilson|	1|Can be substituted with any accurate pipettor|
+|Pipetter: 100-1000 μL	|Pipetman P1000	|Gilson	|1|Can be substituted with any accurate pipettor|
 |BioSafety II cabinet|Biological safety cabinet (INT-1100A2)|Kewaunee|1|Can be substituted with generic - internal UV light required|
 |Thermocycler|Veriti 96-well thermal cycler |Applied Biosystems| 1|	Can be substituted with generic|
 | Mini-centrifuge | Personal mini centrifuge  | BioExcell | 1 | Can be substituted with generic, but needs to fit 1.5-2.0 mL tubes |
@@ -249,18 +249,16 @@ For a 96-well Plate:
 
 ## STANDARD OPERATING PROCEDURE
 
-### Protocol
-
-#### Preparation
+### Preparation
 
 1. Sterilize workspaces and durable equipment, including pipettes within the BSC with 10% bleach. Then wipe down all surfaces and equipment with 70% EtOH.
 2. If you have a UV crosslinker available, UV pipettes and tube racks regularly for 2 minutes.
 3. Run the UV light in the BSC for 30 minutes before starting work.
 4. Label all PCR plates both on the side of the plate and on the top of the foil (in the plate margins). Recommended labeling scheme includes plate name, primer, date of PCR, and personnel initials.
 
-#### PCR
+### PCR
 
-**Primer Sequences without Adapters**: PCR primer sequences (target sequence bolded) 
+**Primer Sequences without Adapters**: PCR primer sequences (**target sequence bolded**)
 
 | PCR Primer Name | Direction | Sequence (5’ -> 3’)|
 | ----- | ----- | ----- |
@@ -316,7 +314,6 @@ This table breaks down the mixture per plate and per reaction. When running full
 9. Spin down the plate, and then transport in cooler blocks before placing in thermocycler.
 10.  Run thermocycler protocol.
 
-
 ### Quality Control
 
 1. Plates should be removed from the thermocycler  after the run completes and stored at 4°C until run on a gel. Storing the PCR product at -20˚C is ideal for 1-6 month term storage, while -80˚C is ideal for long-term storage.
@@ -326,17 +323,13 @@ This table breaks down the mixture per plate and per reaction. When running full
 
 A positive control is used in every PCR run to verify success of the PCR reaction. In place of template DNA, 2 μL of positive control diluted to 10^3 copies/µL is used. One well per plate is alotted for the positive control. The positive control used for MiFIsh 12S is the extinct Haast Eagle (*Harpagornis moorei*) native to New Zealand. The reference mitogenome used to develop the positive control sequence can be found on GenBank: [Accession MK294166.1](https://www.ncbi.nlm.nih.gov/nuccore/1588055484). We note that this accession had 3 mismatches in the forward primer and thus we modified the positive control to use the exact primer sequence to avoid mismatches.
 
-
 |Positive Control Sequence|
 |--------------------------|
 |TTAGTTATCGCACTCCTAGGGCCGGTAAAACTCGTGCCAGCCACCGCGGTCATACAAGAGACCCAAGTTAACAGCTGTCCGGCGTAAAGAGCGGGCCCCTACTATCTAAGCAGTCTGGGATTAAACCACGGCTAAGCTGTCATAAGCCCAAGGCGTGTTTAAAGCCACCCCCAAGACGATCCCAACGCCCACGACTAACTAAACCCCGCGAAAGCCAGGGCACAAACTGGGATTAGATACCCCACTATGCCTGGCCCTAAATCTTAATA|
 
 #### Negative Control
 
-The inclusion of a negative control for PCR is to confirm the absence of contamination during the process. 
-
 Nuclease-free water is used as a no template control (NTC) when setting up each PCR plate. One well per plate is alloted to a NTC. NTCs should be run in addition to both field blanks and extraction blanks.
-
 
 ### Basic Troubleshooting Guide
 
