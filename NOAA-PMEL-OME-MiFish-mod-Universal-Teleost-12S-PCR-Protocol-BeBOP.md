@@ -4,9 +4,9 @@ methodology_category: Omics analysis
 project: NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Group protocols
 purpose: PCR [OBI:0000415]
 analyses: PCR [OBI:0000415]
-geographic_location: North East Pacific Ocean [GAZ:00013765], Bering Sea [GAZ:00008990], Arctic Ocean [GAZ:00000323]
+geographic_location: 'North East Pacific Ocean [GAZ:00013765], Bering Sea [GAZ:00008990], Arctic Ocean [GAZ:00000323]'
 broad_scale_environmental_context: marine biome [ENVO:00000447], marine photic zone [ENVO:00000209]
-local_environmental_context: oceanic epipelagic zone biome [ENVO:01000035], marine biome [ENVO:00000447], marine benthic biome [ENVO:01000024]
+local_environmental_context: oceanic epipelagic zone biome [ENVO:01000035], marine benthic biome [ENVO:01000024]
 environmental_medium: sea water [ENVO:00002149]
 target: 12S mitochondrial ribosomal RNA  [NCIT:C128263], MT-RNR1 Gene [NCIT:C128260]
 creator: Shannon Brown, Han Weinrich, Zachary Gold
