@@ -15,7 +15,7 @@ skills_required: sterile technique, pipetting skills, standard molecular techniq
 time_required: 170
 personnel_required: 1
 language: en
-issued: 2025-04-30
+issued: 2025-05-29
 audience: scientists
 publisher: NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology Group; University of Washington Cooperative Institute for Climate, Ocean, & Ecosystem Studies
 hasVersion: 1
@@ -103,8 +103,8 @@ pcr_method_additional: Quality was validated via confirmation of a product on a 
 
 | PROTOCOL NAME | LINK         | VERSION      | RELEASE DATE | INTERNAL/EXTERNAL |
 | ------------- | ------------ | ------------ | ------------ | ----------------- |
-| OME Gel electrophoresis protocol (in progress)  | Pending | 0.0 | yyyy-mm-dd   | Internal  |
-| Shaffer, M. R., Allan, E. A., Van Cise, A. M., Parsons, K. M., Shleton, A. O., Kelly, R. P (2025,973 in press) Observation bias in metabarcoding. Molecular Ecology Resources. | Pending |         | Pending      | External |
+| NOAA-PMEL-OME-Gel-Electrophoresis-Protocol-BeBOP  | Pending | 0.0 | yyyy-mm-dd   | Internal  |
+| Shaffer, M. R., Allan, E. A., Van Cise, A. M., Parsons, K. M., Shleton, A. O., Kelly, R. P (2025) Observation bias in metabarcoding. Molecular Ecology Resources. In Press | Pending |         | Pending      | External |
 
 ### Protocol Revision Record
 
@@ -119,6 +119,7 @@ pcr_method_additional: Quality was validated via confirmation of a product on a 
 | 1.0.2 | 2024-10-23 | File edits |
 | 1.1.0 | 2025-02-05 | Addition of FAIR eDNA terms in YAML frontmatter and formatting edits |
 | 1.1.1 | 2025-05-01 | Standardization of FARE eDNA terms and formatting updates |
+| 1.1.2 | 2025-05-29 | Minor acronym and content revisions  |
 
 ### Acronyms and Abbreviations
 
@@ -126,19 +127,21 @@ pcr_method_additional: Quality was validated via confirmation of a product on a 
 | ------------- | ------------- |
 |12S rRNA  |12S mitochondrial ribosomal RNA |
 |BSC	|Biosafety cabinet|
-|CICOES| Cooperative Institute for Climate, Ocean, & Ecosystem Studies
+|CICOES| Cooperative Institute for Climate, Ocean, & Ecosystem Studies|
+|DNA	|Deoxyribonucleic acid|
+|DMSO|Dimethyl sulfoxide|
 |eDNA	|environmental DNA|
 |EtOH| Ethanol|
-|IDT| Integrated DNA Technologies
+|IDT| Integrated DNA Technologies|
 |MBARI| Monterey Bay Aquarium Research Institute|
 |MBON	|Marine Biodiversity Observation Network|
 |NOAA|National Oceanic and Atmospheric Administration|
-|NTC	|No template control
-|OME	|Ocean Molecular Ecology
+|NTC	|No template control|
+|OME	|Ocean Molecular Ecology|
 |PCR| Polymerase chain reaction |
 |PMEL	|Pacific Marine Environmental Laboratory|
 |PPE    | Personal protective equipment |
-|UW| University of Washington
+|UW| University of Washington|
 |WC-OBON|West Coast Ocean Biomolecular Observing Network|
 
 ### Glossary
@@ -146,7 +149,7 @@ pcr_method_additional: Quality was validated via confirmation of a product on a 
 | SPECIALISED TERM | DEFINITION |
 | ------------- | ------------- |
 | Extraction blank  | Extraction negative control. Typically nuclease-free water or empty filter run through the DNA extraction process to control for contamination in the DNA extraction step. |
-| Field blank  | Sampling negative control. Typically distilled or reverse osmosis water run through a filter like an seawater eDNA sample to control for contamination in the field sampling step. |
+| Field blank  | Sampling negative control. Typically distilled or reverse osmosis water run through a filter like a seawater eDNA sample to control for contamination in the field sampling step. |
 | No template control | PCR negative control. Typically nuclease-free water loaded in place of a sample on a PCR to control for contamination in the PCR step. |
 | Positive control  | PCR positive control. Typically a synthetic DNA strand, non-indigenous DNA extract, or intentionally designed mock community loaded in place of a sample on a PCR to control for contamination and index hopping in the PCR step. |
 
@@ -305,7 +308,7 @@ This table breaks down the mixture per plate and per reaction. When running full
 
 1. Set out primers and positive control to thaw.
 2. Vortex and spin down thawed positive control, primers, and nuclease free water. Then tap/flick AmpliTaq rather than vortexing before spinning down. Thawed reagents should be stored in a cooling block or fridge when not in use.
-3. Pool reagents to make final master mix, as denoted in above in reagent mixture table.
+3. Pool reagents to make final master mix, as denoted in the reagent mixture table.
 4. Set out template DNA to thaw if frozen.
 5. Aliquot 23 μL of final master mix into each well of the PCR plate. The plate should sit in a cold block to ensure the reagents remain at a low temperature.
 6. Add 2 μL DNA template to each well (See [Protocol Sample Sheet](https://docs.google.com/spreadsheets/d/1GiYxSuAibLr0o4OulZFxdJbhuhW9fhLBwIDK_UkXR90/edit?usp=sharing)), but reserve two wells for the positive control and a no template control (NTC). 
