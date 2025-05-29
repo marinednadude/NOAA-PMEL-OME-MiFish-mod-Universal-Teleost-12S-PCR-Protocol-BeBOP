@@ -320,7 +320,7 @@ This table breaks down the mixture per plate and per reaction. When running full
 ### Quality Control
 
 1. Plates should be removed from the thermocycler  after the run completes and stored at 4°C until run on a gel. Storing the PCR product at -20˚C is ideal for 1-6 month term storage, while -80˚C is ideal for long-term storage.
-2. Run gel visualization to confirm successful PCR. [NOAA-PMEL-OME-GelVisualization-Protocol pending]
+2. Run gel visualization to confirm successful PCR. [NOAA-PMEL-OME-Gel-Electrophoresis-Protocol-BeBOP pending]
 
 #### Positive Control
 
