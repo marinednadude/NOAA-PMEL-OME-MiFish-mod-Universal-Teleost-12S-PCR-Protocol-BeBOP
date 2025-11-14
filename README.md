@@ -1,6 +1,9 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14834590.svg)](https://doi.org/10.5281/zenodo.14834590)
+
 
 # NOAA-PMEL-OME-MiFish-mod-Universal-Teleost-12S-PCR-Protocol-BeBOP
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17612116.svg)](https://doi.org/10.5281/zenodo.17612116)
+
 See [NOAA-PMEL-OME-MiFish-mod-Universal-Teleost-12S-PCR-Protocol-BeBOP.md](https://github.com/marinednadude/NOAA-PMEL-OME-MiFish-mod-Universal-Teleost-12S-PCR-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-MiFish-mod-Universal-Teleost-12S-PCR-Protocol-BeBOP.md) for detailed protocol.  
 
 ## Disclaimer
